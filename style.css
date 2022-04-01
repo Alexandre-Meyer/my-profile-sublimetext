@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 825px;
+	margin: 0 auto;
+}
+
+body {
+	background-image:url("images/pic3.jpg");
+	background-size: cover;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: italic;
+}
+
+h2 {
+	font-size: 30px;
+	color: yellow;
+	text-transform: uppercase;
+}
+
+
+.button {
+	background: darkred;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 14px 20px ;
+	margin: 22px;
+}
+
+.button:hover {
+	background: yellow;
+	color: black;
+}
+
+
+p {
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+ul {
+	display: flex;
+	padding: 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.card-white	{
+	background: white;
+    border-radius: 20px;
+    width: 98%;
+    height: 500px;
+    margin: 25px auto;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 40%);
+    background-image: url(images/backgroundpic.JPG);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card-black {
+	background: royalblue;
+    border-radius: 10px;
+    padding: 25px 0;
+    margin: 30px auto;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 40%);
+    color: white;
+}
+
+.card-blue {
+	background: darkorange;
+    border-radius: 10px;
+    padding: 24px 0;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 40%);
+    color: blue;
+}
+
+.card-dark{
+	background: darkgrey;
+    border-radius: 10px;
+    padding: 24px 0;
+    margin: 30px 0;
+}
+
+.card-green{
+	background: darkgreen;
+    border-radius: 10px;
+    padding: 24px 0;
+    margin: 30px 0;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 40%);
+}
+
+li{
+	list-style-type: none;
+	width: 60px;
+	font-size: 45px;
+}
+
+.profilepic{
+	width: 200px;
+	border-radius: 200px;
+}
+
+.kartrace{
+	width: 350px;
+}
+
+
+.icons:hover {
+	color: blue;
+}
+
+div{
+	margin: 0 auto;
+}
+
+.video {
+	padding: 24px;
+}
+
+.video iframe{
+	aspect-ratio:5 / 3;
+	width: 100%;
+
+	
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 200px;
+	}
+	.profilepic{
+		width: 100px;
+	}
+
+	.kartrace{
+		width: 100px;
+	}
+
+	.racevid{
+		width: 100%;
+	}
+
+	}
+}
+
+@media (max-width: 720px) {
+	.card-white {
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.card-white {
+		width: 100%;
